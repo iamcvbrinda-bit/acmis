@@ -1,0 +1,8 @@
+{
+  "name": "ACIMS Mobility System",
+  "description": "Adaptive Campus Mobility Intelligence System for real-time campus bus tracking, passenger queue management, safety alerts, and multi-modal transit navigation.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

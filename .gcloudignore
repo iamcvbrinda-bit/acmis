@@ -1,0 +1,21 @@
+# Cloud Run / Cloud Build source package ignore
+.gcloudignore
+.git
+.gitignore
+
+# Never upload local node_modules - Cloud Build will install them
+node_modules/
+**/node_modules/
+.npm/
+
+# Cache directories
+.cache/
+**/cache/
+.local/
+.sass-cache/
+
+# System and editor files
+.DS_Store
+*.log
+.vscode/
+.idea/
